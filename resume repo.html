@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaamya Mathpal | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      background: #1f1f1f;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 10px 0;
+    }
+    nav a {
+      color: #00d1b2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .skills span {
+      background: #333;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px;
+      display: inline-block;
+    }
+    .resume-link, .testimonial, .animation {
+      margin-top: 20px;
+    }
+    .testimonial {
+      background: #1e1e1e;
+      padding: 20px;
+      border-left: 5px solid #00d1b2;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Kaamya Mathpal</h1>
+    <p>Embedded Systems | AI Enthusiast | Creative Technologist</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>I’m a B.Tech student in Electronics (VLSI) Engineering with a passion for embedded systems, AI, and creating real-world solutions. I enjoy working on hands-on projects and exploring the synergy between software and hardware.</p>
+    <div class="resume-link">
+      <a href="resume.pdf" target="_blank" style="color:#00d1b2; text-decoration:underline;">📄 Download Resume</a>
+    </div>
+  </section>
+
+  <section id="skills" class="fade-in">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>Embedded Systems</span>
+      <span>STCubeMX</span>
+      <span>Git</span>
+      <span>Figma</span>
+      <span>Canva</span>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <h3>Gesture Alertness System</h3>
+    <p>Built a real-time gesture detection system using STM32 and OpenAI API integration. Used STCubeIDE, VSCode, and STM32 boards.</p>
+  </section>
+
+  <section id="testimonials" class="fade-in">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Kaamya is a highly motivated individual with a strong grasp on embedded systems and rapid prototyping. A pleasure to work with!"</p>
+      <small>- Mentor, STMicroelectronics Internship</small>
+    </div>
+    <div class="testimonial">
+      <p>"Her curiosity and problem-solving approach stood out in every project we collaborated on."</p>
+      <small>- Peer, Oorja Tech Society</small>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Email: kaamya.mathpal@email.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/kaamya-mathpal-b60749283" target="_blank" style="color:#00d1b2;">kaamya-mathpal</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kaamya Mathpal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
